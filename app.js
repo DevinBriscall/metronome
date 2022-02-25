@@ -1,5 +1,5 @@
 import express from 'express';
-GLOBAL.document = new JSDOM('https://metronometest.herokuapp.com/').window.document;
+global.document = new JSDOM('https://metronometest.herokuapp.com/').window.document;
 const port = process.env.PORT || 3000;
 var app = express();
 app.listen(port, function () {
