@@ -1,4 +1,8 @@
-app.listen(process.env.PORT || 3000);
+const port = process.env.PORT || 3000;
+
+AudioParamMap.listen(port, function () {
+    console.log("server started successfully");
+})
 import Timer from "./timer.js";
 
 
