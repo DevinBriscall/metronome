@@ -1,4 +1,4 @@
-import express from "express";
+import express from express;
 const port = process.env.PORT || 3000;
 var app = express();
 app.listen(port, function () {
