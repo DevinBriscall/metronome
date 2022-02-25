@@ -1,3 +1,4 @@
+app.listen(process.env.PORT || 3000);
 import Timer from "./timer.js";
 
 
