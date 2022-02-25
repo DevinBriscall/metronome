@@ -1,5 +1,5 @@
 import express from 'express';
-global.document = new JSDOM('https://metronometest.herokuapp.com/').window.document;
+
 const port = process.env.PORT || 3000;
 var app = express();
 app.listen(port, function () {
@@ -9,7 +9,7 @@ import Timer from "./timer.js";
 
 const jsdom = require("jsdom");
 const { JSDOM } = jsdom;
-
+global.document = new JSDOM('https://metronometest.herokuapp.com/').window.document;
 
 const tempoDisplay = document.querySelector('.tempo');
 const tempoText = document.querySelector('.tempo-text');
