@@ -23,6 +23,7 @@
   "homepage": "https://github.com/reyyourock/metronome#readme",
   "dependencies": {
     "esm": "^3.2.25",
+    "express": "^4.17.3",
     "timer.js": "^1.0.4"
   }
 }
