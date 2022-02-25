@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/reyyourock/metronome#readme",
   "dependencies": {
+    "esm": "^3.2.25",
     "timer.js": "^1.0.4"
   }
 }
