@@ -24,6 +24,7 @@
   "dependencies": {
     "esm": "^3.2.25",
     "express": "^4.17.3",
+    "jsdom": "^19.0.0",
     "timer.js": "^1.0.4"
   }
 }
