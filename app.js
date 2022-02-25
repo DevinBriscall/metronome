@@ -7,7 +7,7 @@ app.listen(port, function () {
 })
 import Timer from "./timer.js";
 
-const jsdom = require("jsdom");
+import jsdom from JSDOM;
 const { JSDOM } = jsdom;
 global.document = new JSDOM('https://metronometest.herokuapp.com/').window.document;
 
